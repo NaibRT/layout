@@ -5,6 +5,21 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=js?key=AIzaSyAooeUsL0D_Kinfd44L1_H4NyTk7ou4Qq8&callback=initMap"
+  type="text/javascript"></script>
+
+
+
 </head>
 <body>
 	<section class="header">
@@ -120,16 +135,22 @@
          <li><a href="#">Animated Counter</a></li>
          <li><a href="#">Block Quote</a></li>
          <li><a href="#">Blog Content</a></li>
+     </ul>
+     <ul>
          <li><a href="#">Bootstrap Grid</a></li>
          <li><a href="#">Carousel</a></li>
          <li><a href="#">Call to Action</a></li>
          <li><a href="#">Clients</a></li>
          <li><a href="#">Divider</a></li>
+     </ul>
+     <ul>
          <li><a href="#">Dropcap</a></li>
          <li><a href="#">Error</a></li>
          <li><a href="#">F.A.Q</a></li>
          <li><a href="#">Feature Box</a></li>
          <li><a href="#">Image Content</a></li>
+     </ul>
+     <ul>
          <li><a href="#">Pie Chart</a></li>
          <li><a href="#">Pricing Table</a></li>
          <li><a href="#">Team</a></li>
@@ -141,23 +162,15 @@
 <div class="dropdown">
      <div class="dropbtn"><a href="">CONTACT</a></div>
      <div class="dropdown-content">
-     <ul>	
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-     </ul>
-      </div>
+          <div id="map"></div>
+          <div>
+              <div> </div>
+              <div> </div>
+              <div> </div>
+          </div>
+    </div>
 </div>
-
-			
-
-
-			   </div>
-		</div>
+		
 	</section>
 
 

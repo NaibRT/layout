@@ -22,7 +22,7 @@ body{
 				
 				padding-top:11px;
 				li{
-					heigt:30px;
+					height:30px;
 					width:30px;
 					display: inline-block;
 
@@ -89,24 +89,42 @@ body{
 
 
 
-			.col-8{
-			
-                 &:nth-child(6){
-                .dropdown-content{
-                    right:0;
-                     min-width:500px;
-                     ul{
-                     li{
-                     display:inline-block;
-                     }
-                     }
-                   }
-                  }   
-
+			>.col-8{
+  
+          
+	
                    .dropdown{
                   display:inline-block;
                   position: relative;
                   margin-left: 10px;
+
+                   &:last-child{
+                    .dropdown-content{
+                      right:0px;
+                    width: 1000px;
+                    .map{
+                      width: 600px;
+                      height: 400px;
+                    }
+                    }
+                   }
+
+                  &:nth-child(6){
+                .dropdown-content{
+                    right:0px;
+                    width: 700px; 
+                    ul{
+                      display: inline-block;
+                      li{
+                        margin-top: 25px;
+                        margin-right: 20px;
+                        a{
+                          font-size: 17px;
+                        }
+                      }
+                    }
+                   }
+                  }
                    
                    &:hover{
                    	.dropdown-content{
