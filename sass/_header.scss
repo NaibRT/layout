@@ -97,14 +97,40 @@ body{
                   display:inline-block;
                   position: relative;
                   margin-left: 10px;
-
+                  .adres{
+                  width:300px;
+                  position:absolute;
+                  right:0;
+                  display:inline-block;
+                  div{
+                  div{
+                  display:inline-block;
+                  margin-top:50px;
+                  svg{
+                  color:red;
+                  font-size:50px;
+                  }
+                  }
+                  h1{
+                  display:inline-block;
+                  a{
+                    text-decoration:none;
+                    color:black;
+                  }
+                  }
+                  }
+                  }
                    &:last-child{
                     .dropdown-content{
                       right:0px;
                     width: 1000px;
-                    .map{
+                    height:500px;
+                    #map{
                       width: 600px;
                       height: 400px;
+                      position:absolute;
+                      background:red;
+                      z-index:1;
                     }
                     }
                    }

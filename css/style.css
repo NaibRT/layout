@@ -72,13 +72,38 @@ body {
   position: relative;
   margin-left: 10px;
 }
+#navbar .container .row > .col-8 .dropdown .adres {
+  width: 300px;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+#navbar .container .row > .col-8 .dropdown .adres div div {
+  display: inline-block;
+  margin-top: 50px;
+}
+#navbar .container .row > .col-8 .dropdown .adres div div svg {
+  color: red;
+  font-size: 50px;
+}
+#navbar .container .row > .col-8 .dropdown .adres div h1 {
+  display: inline-block;
+}
+#navbar .container .row > .col-8 .dropdown .adres div h1 a {
+  text-decoration: none;
+  color: black;
+}
 #navbar .container .row > .col-8 .dropdown:last-child .dropdown-content {
   right: 0px;
   width: 1000px;
+  height: 500px;
 }
-#navbar .container .row > .col-8 .dropdown:last-child .dropdown-content .map {
+#navbar .container .row > .col-8 .dropdown:last-child .dropdown-content #map {
   width: 600px;
   height: 400px;
+  position: absolute;
+  background: red;
+  z-index: 1;
 }
 #navbar .container .row > .col-8 .dropdown:nth-child(6) .dropdown-content {
   right: 0px;

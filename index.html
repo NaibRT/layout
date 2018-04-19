@@ -5,18 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-    <script>
-function myMap() {
-    var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=js?key=AIzaSyAooeUsL0D_Kinfd44L1_H4NyTk7ou4Qq8&callback=initMap"
-  type="text/javascript"></script>
+
 
 
 
@@ -163,11 +152,35 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
      <div class="dropbtn"><a href="">CONTACT</a></div>
      <div class="dropdown-content">
           <div id="map"></div>
-          <div>
-              <div> </div>
-              <div> </div>
-              <div> </div>
-          </div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("map"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<div class="adres">
+<div>
+    <div><i class="fas fa-map"></i></div>
+    <h1><a href="#">ADDRESS</a></h1>
+    <span>Flat: 34/A, Plot: 345, City: Unknown, </span>
+    <span>Country: Unknown</span>
+</div>
+       <div>
+          <div><i class="far fa-envelope-open"></i></div>
+         <h1><a href="#">E-mail</a></h1>
+          <span>email@example.com </span>
+     </div>
+       <div>
+          <div><i class="fas fa-mobile-alt"></i></div>
+         <h1><a href="#">Phone</a></h1>
+          <span> +880123456789</span>
+     </div>
+</div>
     </div>
 </div>
 		
