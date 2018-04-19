@@ -1,0 +1,87 @@
+.container {
+	width: $mainWidth;
+	margin: 0 auto;
+	position: relative;
+	height: auto;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+.section-padding {
+	padding: 50px 0px;
+}
+
+.inner-padding {
+	padding: 15px 0px;
+}
+
+.row {
+	position: relative;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+div[class^="col-"] {
+	float: left;
+	margin: $mainMargin;
+	position: relative;
+}
+
+.col-1 {
+	width: calc((100%/12)*1 - (2*10px));
+}
+
+.col-2 {
+	width: calc((100%/12)*2 - (2*10px));
+}
+
+.col-3 {
+	width: calc((100%/12)*3 - (2*10px));
+}
+
+.col-4 {
+	width: calc((100%/12)*4 - (2*10px));
+}
+
+.col-5 {
+	width: calc((100%/12)*5 - (2*10px));
+}
+
+.col-6 {
+	width: calc((100%/12)*6 - (2*10px));
+}
+
+.col-7 {
+	width: calc((100%/12)*7 - (2*10px));
+}
+
+.col-8 {
+	width: calc((100%/12)*8 - (2*10px));
+}
+
+.col-9 {
+	width: calc((100%/12)*9 - (2*10px));
+}
+
+.col-10 {
+	width: calc((100%/12)*10 - (2*10px));
+}
+
+.col-11 {
+	width: calc((100%/12)*11 - (2*10px));
+}
+
+.col-12 {
+	width: calc((100%/12)*12 - (2*10px));
+}
